@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.linfeng.service.moment.dao.MomentDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.linfeng.service.moment.dto.response.MomentResponseDTO" id="momentResponseMap">
+        <result property="momentId" column="moment_id"/>
+        <result property="uid" column="uid"/>
+        <result property="userName" column="user_name"/>
+        <result property="gender" column="gender"/>
+        <result property="avatar" column="avatar"/>
+        <result property="birthday" column="birthday"/>
+        <result property="livingCity" column="living_city"/>
+        <result property="job" column="job"/>
+        <result property="content" column="content"/>
+        <result property="mediaType" column="media_type"/>
+        <result property="lv" column="lv"/>
+        <result property="cv" column="cv"/>
+        <result property="likeFlag" column="like_flag"/>
+        <result property="createTime" column="create_time"/>
+        <collection property="mediaList" javaType="list" ofType="io.linfeng.service.moment.dto.response.MomentMediaResponseDTO">
+            <result property="url" column="url" />
+        </collection>
+    </resultMap>
+
+    <sql id="selectMomentSql">
+        select t1.id moment_id, t2.uid, t2.user_name, t2.gender, t2.avatar, t2.birthday, t2.living_city, t2.job,
+               t1.content, t1.media_type, t3.url, t1.lv, t1.cv, t1.create_time,
+               case when t4.status = 1 then true else false end like_flag
+        from lf_moment t1
+                 left join lf_user t2
+                           on t1.uid = t2.uid
+                 left join lf_moment_media t3
+                           on t1.id = t3.moment_id
+                 left join lf_moment_like t4
+                           on t1.id = t4.moment_id and t4.uid =${uid}
+    </sql>
+
+    <select id="selectNewestMomentIdPage" parameterType="java.util.Map" resultType="int">
+        select id from lf_moment order by id desc
+    </select>
+
+    <select id="selectNewestMomentList" parameterType="java.util.Map" resultMap="momentResponseMap">
+        <include refid="selectMomentSql"/>
+        where t1.id in
+        <foreach collection="momentIdList" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        order by t1.id desc
+    </select>
+
+
+    <select id="selectGuestMomentList" parameterType="java.util.Map" resultMap="momentResponseMap">
+        <include refid="selectMomentSql"/>
+        where t1.uid = ${guestUid} and t1.id in
+        <foreach collection="momentIdList" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        order by t1.id desc
+    </select>
+
+    <select id="selectMyMomentList" parameterType="java.util.Map" resultMap="momentResponseMap">
+        <include refid="selectMomentSql"/>
+        where t1.uid = ${uid} and t1.id in
+        <foreach collection="momentIdList" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+        order by t1.id desc
+    </select>
+
+
+    <select id="selectMomentsDetail" parameterType="java.util.Map" resultMap="momentResponseMap">
+        <include refid="selectMomentSql"/>
+        where t1.id = ${momentId}
+    </select>
+
+    <update id="updateCv"  parameterType="java.util.Map">
+        update lf_moment set cv = cv + ${count} where id = ${momentId}
+    </update>
+
+    <update id="updateLv"  parameterType="java.util.Map">
+        update lf_moment set lv = lv + ${count} where id = ${momentId}
+    </update>
+
+    <update id="updatePv"  parameterType="java.util.Map">
+        update lf_moment set pv = pv + 1 where id = ${momentId}
+    </update>
+
+</mapper>

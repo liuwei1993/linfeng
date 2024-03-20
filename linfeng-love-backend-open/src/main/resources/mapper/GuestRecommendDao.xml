@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.linfeng.service.guest.dao.GuestRecommendDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.linfeng.service.guest.entity.GuestRecommendEntity" id="recommendMap">
+        <result property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="guestUid" column="guest_uid"/>
+        <result property="status" column="status"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+    <select id="getRecommendGuest" parameterType="java.util.Map" resultType="io.linfeng.service.user.entity.UserEntity">
+        select * from lf_user where gender = #{m.gender}
+        <if test="m.uidList.size != 0">
+            and uid not in
+            <foreach collection="m.uidList" item="uid" open="(" separator="," close=")">
+                #{uid}
+            </foreach>
+        </if>
+        ORDER BY RAND() LIMIT 1;
+    </select>
+
+    <select id="getHistoryRecommend" parameterType="java.util.Map" resultType="io.linfeng.service.user.entity.UserEntity">
+        select t2.* from lf_guest_recommend t1
+        left join  lf_user t2
+        on t1.guest_uid = t2.uid
+        where t1.uid = #{uid}
+        order by t1.create_time desc
+    </select>
+
+
+    <select id="getExistGuestUidList" resultType="int" parameterType="int">
+        SELECT guest_uid FROM lf_guest_recommend WHERE uid = #{uid}
+    </select>
+
+</mapper>

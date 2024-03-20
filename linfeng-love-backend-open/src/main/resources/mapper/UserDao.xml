@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.linfeng.service.user.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.linfeng.service.user.entity.UserEntity" id="userMap">
+        <result property="uid" column="uid"/>
+        <result property="mobile" column="mobile"/>
+        <result property="userName" column="username"/>
+        <result property="password" column="password"/>
+        <result property="avatar" column="avatar"/>
+        <result property="gender" column="gender"/>
+        <result property="birthday" column="birthday"/>
+        <result property="stature" column="stature"/>
+        <result property="marriage" column="marriage"/>
+        <result property="school" column="school"/>
+        <result property="education" column="education"/>
+        <result property="homeProvince" column="home_province"/>
+        <result property="homeCity" column="home_city"/>
+        <result property="livingProvince" column="living_province"/>
+        <result property="livingCity" column="living_city"/>
+        <result property="salary" column="salary"/>
+        <result property="lastLoginIp" column="last_login_ip"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+</mapper>
