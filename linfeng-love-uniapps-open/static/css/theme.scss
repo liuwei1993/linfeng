@@ -1,0 +1,18 @@
+// 此文件为uView的主题变量，这些变量目前只能通过uni.scss引入才有效，另外由于
+// uni.scss中引入的样式会同时混入到全局样式文件和单独每一个页面的样式中，造成微信程序包太大，
+// 故uni.scss只建议放scss变量名相关样式，其他的样式可以通过main.js或者App.vue引入
+
+$lf-bg-blue: #2F85FC;
+$lf-bg-blue-week: #64beff21;
+$lf-bg-black: #000000;
+$lf-bg-grey: #C8C8C8;
+$lf-bg-grey-week: #f7f5f5;
+$lf-bg-pink: #F6B2DF;
+$lf-bg-white: #FFFFFF;
+
+$lf-text-blue: #2F85FC;
+$lf-text-grey: #797979;
+$lf-text-grey-week: #b4b4b4;
+$lf-text-white: #FFFFFF;
+$lf-text-black: #000000;
+$lf-text-error: #dd524d;

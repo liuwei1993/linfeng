@@ -1,0 +1,9 @@
+{
+    "name": "linfeng-love-uniapp-open",
+    "version": "1.0.0",
+    "description": "林风婚恋交友开源版版",
+    "keywords": [],
+    "dependencies": {
+        "recorder-core": "^1.2.23070100"
+    }
+}

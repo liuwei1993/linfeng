@@ -1,0 +1,135 @@
+{
+	"pages": [
+		{
+			"path": "pages/guide/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/preload/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/preload/sms-login"
+		},
+		{
+			"path": "pages/moment/guest",
+			"style": {
+				"navigationBarTitleText": "嘉宾动态",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/moment/my",
+			"style": {
+				"navigationBarTitleText": "我的动态",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/moment/index",
+			"style": {
+				"navigationBarTitleText": "动态",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/moment/detail",
+			"style": {
+				"navigationBarTitleText": "动态详情"
+			}
+		},
+		{
+			"path": "pages/moment/new",
+			"style": {
+				"navigationBarTitleText": "新增动态"
+			}
+		},
+		{
+			"path": "pages/user/base/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/user/base/main",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/guest/detail"
+		},
+		{
+			"path": "pages/guest/history",
+			"style": {
+				"navigationBarTitleText": "回看"
+			}
+		},
+		//pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/base/intro",
+			"style": {
+				"navigationBarTitleText": "自我介绍"
+			}
+		},
+		{
+			"path": "pages/preload/mobile",
+			"style": {
+				"navigationBarTitleText": "手机号绑定"
+			}
+		},
+		{
+			"path": "pages/guide/step",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "林风婚恋",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f37f7e",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-on.png",
+				"text": "推荐"
+			},
+			{
+				"pagePath": "pages/moment/index",
+				"iconPath": "static/tabbar/planet.png",
+				"selectedIconPath": "static/tabbar/planet-on.png",
+				"text": "动态"
+			},
+			{
+				"pagePath": "pages/user/base/index",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-on.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
