@@ -50,7 +50,7 @@
 | 官网地址：   | https://net.linfeng.tech/                                                                  |
 | 后台管理地址： | https://love.web.linfeng.tech/                                                             |
 | 微信公众号   | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg)     |
-| h5演示    | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-qrcode-h5.png) |
+| h5演示    | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-h5.png) |
 
 
 #### 移动端效果图
