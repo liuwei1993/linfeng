@@ -50,7 +50,7 @@
 | 官网地址：   | https://net.linfeng.tech/                                                                  |
 | 后台管理地址： | https://love.web.linfeng.tech/                                                             |
 | 微信公众号   | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg)     |
-| h5演示    | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-qrcode-h5.png) |
+| h5演示    | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-qrcode-h5.jpg) |
 
 
 #### 移动端效果图
@@ -65,13 +65,13 @@
 
 #### 后台管理效果图
 
-![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-1.png)
+![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-1.jpg)
 
-![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-2.png)
+![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-2.jpg)
 
-![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-3.png)
+![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-3.jpg)
 
-![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-4.png)
+![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-4.jpg)
 
 
 ### 标准版更新记录
