@@ -4,7 +4,7 @@
 ### 须知
 - 开源版仅允许用于个人学习研究使用.
 - 禁止将本开源的代码和资源进行任何形式任何名义的改造或出售.
-- 限制商用，如果需要商业使用请联系我们，二维码如上.
+- 限制商用，如果需要商业使用请联系我们.
 - 开源不易，点点Star⭐.
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <thead>
@@ -20,15 +20,15 @@
     </tr>
  <tr>
       <td align="center">林风婚恋交友</td>
-      <td align="center"> <b>此仓库开源</b>&nbsp;&nbsp;&nbsp;&nbsp;<b><a  href="https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-wx.png" target="_blank">商业版咨询</a></b></td>
+      <td align="center"> <b>此仓库开源</b>&nbsp;&nbsp;&nbsp;&nbsp;<b><a  href="https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-wx.jpg" target="_blank">商业版咨询</a></b></td>
     </tr>
   </tbody>
 </table>
 
-| 交流群：林风婚恋交友项目群                     | 商业咨询                              |
-|--------------------------------------------------------------------------------|-----------------------------------|
-| ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-group.jpg) | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-wx.png) |
-| QQ群号：624039130                              | VX号:18157059657                   |
+| 交流群：林风婚恋交友项目群                     | 商业咨询                                                                                       |
+|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-group.jpg) | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-wx.jpg) |
+| QQ群：624039130                              | 微信号:18157059657                                                                            |
 
 ### 项目介绍
 林风婚恋交友uniapp小程序/H5基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMq+jwt+Redis+Vue+Uniapp的前后端分离的婚恋交友社区聊天项目。 项目分为Uniapp用户端（兼容H5、微信小程序）和Vue后台管理端（包括完整的权限处理）， 基于以下技术栈开发：SpringBoot、MybatisPlus、Shiro、Netty、RabbitMq、jwt、websocket、Redis、Vue、Uniapp、MySQL。
@@ -37,7 +37,7 @@
 
 ***后台前端的代码在 linfeng-love-backend-open目录下！***
 
-***用户端的前端代码在 linfeng-love-uniapp-open 目录下！***
+***用户端的前端代码在 linfeng-love-uniapps-open目录下！***
 
 ***SQL文件在群文件中***
 
@@ -50,7 +50,7 @@
 | 官网地址：   | https://net.linfeng.tech/                                                                  |
 | 后台管理地址： | https://love.web.linfeng.tech/                                                             |
 | 微信公众号   | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg)     |
-| h5演示    | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-qrcode-h5.jpg) |
+| h5演示    | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-qrcode-h5.png) |
 
 
 #### 移动端效果图
@@ -80,16 +80,16 @@
 
 <u>2024.03.15</u>
 ##### **V1.1.0发布**
-【新增】1.非实名用户头像上传新增人脸检测（腾讯云）【重磅】
-【新增】2.实名用户头像上传新增人脸检测、人脸对比（腾讯云）【重磅】
-【新增】3.实名认证流程新增人脸检测、人脸对比、人脸核身（腾讯云）【重磅】
-【新增】4.IM聊天、漂流瓶会话新增表情包
-【新增】5.新增头像人工审核开关
-【优化】6.漂流瓶、客服等页面添加导航栏返回按钮
-【优化】7.动态列表、动态详情添加性别显示
-【优化】8.优化时间控件ios平台下显示问题
-【优化】9.优化websocket断线重连问题
-【优化】10.优化文件上传缓冲提示
+- 【新增】1.非实名用户头像上传新增人脸检测（腾讯云）【重磅】
+- 【新增】2.实名用户头像上传新增人脸检测、人脸对比（腾讯云）【重磅】
+- 【新增】3.实名认证流程新增人脸检测、人脸对比、人脸核身（腾讯云）【重磅】
+- 【新增】4.IM聊天、漂流瓶会话新增表情包
+- 【新增】5.新增头像人工审核开关
+- 【优化】6.漂流瓶、客服等页面添加导航栏返回按钮
+- 【优化】7.动态列表、动态详情添加性别显示
+- 【优化】8.优化时间控件ios平台下显示问题
+- 【优化】9.优化websocket断线重连问题
+- 【优化】10.优化文件上传缓冲提示
 
 <u>2024.02.22</u>
 ##### **V1.0.0发布**
