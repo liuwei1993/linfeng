@@ -15,7 +15,7 @@
 
 ***SQL文件在群文件中***
 
-#### 1.1系统架构图
+#### 1.1系统架构图(v1.1.0标准版)
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-main.png)
 
 #### 1.2演示地址
