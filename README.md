@@ -9,9 +9,9 @@
 
 功能：嘉宾推荐、喜欢/来访、嘉宾解锁、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶等丰富功能，直接看演示更直观↓↓↓↓↓
 
-***后台前端的代码在 linfeng-love-backend-open目录下！***
+***后端代码在 linfeng-love-backend-open目录下！***
 
-***用户端的前端代码在 linfeng-love-uniapps-open目录下！***
+***前端代码在 linfeng-love-uniapps-open目录下！***
 
 ***SQL文件在群文件中***
 
