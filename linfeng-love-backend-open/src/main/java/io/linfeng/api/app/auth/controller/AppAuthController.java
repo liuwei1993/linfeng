@@ -48,6 +48,7 @@ public class AppAuthController {
     @ApiOperation("微信小程序登录")
     public Result<LoginResponse> miniWxLogin(@RequestBody WxLoginRequest request){
 
+
         ValidatorUtils.validateEntity(request);
         LoginResponse loginResponse = appAuthService.miniWxLogin(request);
 
