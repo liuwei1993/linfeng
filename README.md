@@ -15,7 +15,7 @@
 
 ***SQL文件在群文件中***
 
-#### 1.1系统架构图(v1.1.0标准版)
+#### 1.1系统架构图(v1.2.0标准版)
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-main.png)
 
 #### 1.2演示地址
@@ -46,6 +46,8 @@
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-3.jpg)
 
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-4.jpg)
+
+![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-5.jpg)
 
 
 
@@ -88,8 +90,20 @@
 
 ### 3.标准版更新记录
 
-**当前版本V1.1.0**
+**当前版本V1.2.0预告版**
+<u>2024.04.19</u>
+##### **V1.2.0发布**
+- 【新增】1.新增线下活动模块【重磅】
+- 【新增】2.新增退费功能（微信退款）【重磅】
+- 【新增】3.新增官方账号
+- 【新增】4.新增好友列表索引
+- 【新增】5.新增驾驶舱图标
+- 【优化】6.支付结果回调处理优化
+- 【优化】7.动态详情页优化
 
+<u>2024.02.22</u>
+
+##### **V1.0.0发布**
 <u>2024.03.15</u>
 ##### **V1.1.0发布**
 - 【新增】1.非实名用户头像上传新增人脸检测（腾讯云）【重磅】
