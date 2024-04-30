@@ -37,6 +37,8 @@
 
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-4.png)
 
+![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-5.png)
+
 #### 1.4后台管理效果图
 
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/web-1.jpg)
@@ -91,6 +93,7 @@
 ### 3.标准版更新记录
 
 **当前版本V1.2.1**
+
 <u>2024.04.30</u>
 ##### **V1.2.0发布**
 - 【新增】1.线下活动模块功能迭代
