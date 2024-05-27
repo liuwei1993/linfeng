@@ -15,7 +15,7 @@
 
 ***SQL文件在群文件中***
 
-#### 1.1系统架构图(v1.2.0标准版)
+#### 1.1系统架构图(v1.3.0标准版)
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-main.png)
 
 #### 1.2演示地址
@@ -25,6 +25,7 @@
 | 后台管理演示： | https://love.web.linfeng.tech/                               |
 | 微信公众号     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg) |
 | h5演示         | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-h5.png) |
+| 小程序演示（请添加客服）     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-mp.jpg) |
 
 
 #### 1.3移动端效果图
@@ -92,7 +93,16 @@
 
 ### 3.标准版更新记录
 
-**当前版本V1.2.1**
+**当前版本V1.3.0**
+
+<u>2024.05.27</u>
+##### **V1.3.0发布**
+- 【新增】1.新增百度内容审核（文本、图片、视频）
+- 【新增】2.新增首页展示方式后台可配置
+- 【新增】3.新增附近嘉宾
+- 【新增】4.新增适配集群部署
+- 【新增】5.嘉宾筛选新增实名筛选条件
+- 【新增】6.新增通过手机号搜索嘉宾
 
 <u>2024.04.30</u>
 ##### **V1.2.1发布**
