@@ -5,7 +5,7 @@
 
 ### 1.项目介绍
 
-林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友社区聊天项目。 
+林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友，社交聊天项目。
 
 功能：嘉宾推荐、喜欢/来访、嘉宾解锁、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶、线下活动、礼物赠送、账户提现等丰富功能，直接看演示更直观↓↓↓↓↓
 
