@@ -1,5 +1,5 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">linfeng-love 开源版</h1>
-<h4 align="center">基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMQ+jwt+Redis+Vue3+Uniapp的婚恋交友社区聊天项目</h4>
+<h4 align="center">基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMQ+jwt+Redis+Vue3+Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、陌生人交友项目</h4>
 
 
 
