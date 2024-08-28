@@ -1,13 +1,13 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">linfeng-love 开源版</h1>
-<h4 align="center">基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMQ+jwt+Redis+Vue3+Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、陌生人交友项目</h4>
+<h4 align="center">基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMQ+jwt+Redis+Vue3+Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、陌生人交友、找搭子交友项目</h4>
 
 
 
 ### 1.项目介绍
 
-林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天项目。
+林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、找搭子交友项目。
 
-功能：嘉宾推荐、喜欢/来访、嘉宾解锁、同城交友、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶、线下活动、礼物赠送、账户提现等丰富功能，直接看演示更直观↓↓↓↓↓
+功能：嘉宾推荐、喜欢/来访、嘉宾解锁、同城交友、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶、线下活动、礼物赠送、账户提现、找搭子等丰富功能，直接看演示更直观↓↓↓↓↓
 
 ***后端代码在 linfeng-love-backend-open目录下！***
 
@@ -95,7 +95,18 @@
 
 ### 3.标准版更新记录
 
-**当前版本V1.4.0**
+**当前版本V1.5.0**
+
+<u>2024.08.29</u>
+##### **林风婚恋交友V1.5.0发布**
+- 【新增】1.新增线下找搭子模块
+- 【新增】2.新增线下活动通知公告
+- 【新增】3.新增线下活动回顾
+- 【新增】4.新增线下活动详情展示
+- 【新增】5.新增网关模块（数据加密）
+- 【优化】6.优化敏感词库为空判断逻辑
+- 【优化】7.优化线下活动列表刷新展示
+- 【优化】8.优化城市管理经纬度变量问题
 
 <u>2024.07.04</u>
 ##### **林风婚恋交友V1.4.0发布**
