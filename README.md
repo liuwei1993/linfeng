@@ -21,7 +21,8 @@
 #### 1.2演示地址
 | 说明           | 详情                                                         |
 | -------------- | ------------------------------------------------------------ |
-| 项目官网：     | https://net.linfeng.tech/                                    |
+| 项目官网：     | https://net.linfeng.tech/love.html                                    |
+| 备用官网：     | https://www.linfengtech.cn/love.html                                   |
 | 后台管理演示： | https://love.web.linfeng.tech/                               |
 | 微信公众号     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg) |
 | h5演示         | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-h5.png) |
@@ -63,6 +64,7 @@
 - 开源版仅允许用于个人学习研究使用.
 - 禁止将本开源的代码和资源进行任何形式任何名义的改造或出售.
 - 限制商用，如果需要商业使用请联系我们.
+- 本软件已登记软件著作权（登记号：2025SR0586781）.
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <thead>
