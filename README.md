@@ -1,13 +1,13 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">linfeng-love 开源版</h1>
-<h4 align="center">基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMQ+jwt+Redis+Vue3+Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、陌生人交友、找搭子交友项目</h4>
+<h4 align="center">基于SpringBoot+MybatisPlus+Shiro+Netty+WebSocket+RabbitMQ+jwt+Redis+Vue3+Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、陌生人交友、找搭子交友、线下相亲活动项目</h4>
 
 
 
 ### 1.项目介绍
 
-林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、找搭子交友项目。
+林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、找搭子交友、线下相亲活动项目。
 
-功能：嘉宾推荐、喜欢/来访、嘉宾解锁、同城交友、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶、线下活动、礼物赠送、账户提现、找搭子等丰富功能，直接看演示更直观↓↓↓↓↓
+功能：嘉宾推荐、喜欢/来访、嘉宾解锁、同城交友、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶、线下相亲活动、礼物赠送、账户提现、找搭子等丰富功能，直接看演示更直观↓↓↓↓↓
 
 ***后端代码在 linfeng-love-backend-open目录下！***
 
@@ -15,7 +15,7 @@
 
 ***SQL文件在群文件中***
 
-#### 1.1系统架构图(v1.10.0标准版)
+#### 1.1系统架构图(v1.11.0标准版)
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-main.png)
 
 #### 1.2演示地址
@@ -98,7 +98,21 @@
 
 ### 3.标准版更新记录
 
-**当前版本V1.10.0**
+**当前版本V1.11.0**
+
+<u>2025.8.25</u>
+##### **林风婚恋交友V1.11.0发布**
+- 【新增】1.新增隐身功能
+- 【新增】2.新增官方活动无需付费方式
+- 【新增】3.小程序手机号授权绑定后置
+- 【新增】4.手机号换绑功能
+- 【新增】5.新增IM视频消息
+- 【新增】6.新增视频封面页处理
+- 【新增】7.新增实名次数控制
+- 【新增】8.新增漂流瓶功能开关
+- 【优化】9.优化打招呼结束交互
+- 【优化】10.优化花瓣清理定时任务
+- 【优化】11.优化线下活动管理列表排序
 
 <u>2025.6.19</u>
 ##### **林风婚恋交友V1.10.0发布**
