@@ -5,7 +5,7 @@
 
 ### 1.项目介绍
 
-林风婚恋交友uniapp小程序/H5基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、找搭子交友、线下相亲活动项目。
+林风婚恋交友uniapp小程序/H5/APP基于SpringBoot，MybatisPlus，Shiro，Netty，WebSocket，RabbitMq，jwt，Redis，Vue3，Uniapp的婚恋交友，社区交友，相亲交友、同城交友、社交聊天、找搭子交友、线下相亲活动项目。
 
 功能：嘉宾推荐、喜欢/来访、嘉宾解锁、同城交友、实时动态、热门话题、评论关注、IM通讯、实时通知、实名认证、人脸识别、人脸核身、会员中心、花瓣虚拟币、每日签到、任务活动、漂流瓶、线下相亲活动、礼物赠送、账户提现、找搭子等丰富功能，直接看演示更直观↓↓↓↓↓
 
@@ -27,6 +27,7 @@
 | 微信公众号     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg) |
 | h5演示         | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-h5.png) |
 | 小程序演示（请添加客服）     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-mp.jpg) |
+| APP演示（安卓）     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-apk.jpg) |
 
 
 #### 1.3移动端效果图
@@ -98,7 +99,20 @@
 
 ### 3.标准版更新记录
 
-**当前版本V1.11.0**
+**当前版本V1.12.0**
+
+<u>2025.10.10</u>
+##### **林风婚恋交友V1.12.0发布**
+- 【新增】1.APP版本功能适配（安卓和IOS）
+- 【新增】2.小程序/APP系统权限统一处理
+- 【新增】3.腾讯云人脸核身接口升级
+- 【新增】4.实名/学历/工作认证开关
+- 【新增】5.会员/花瓣/奖励提现开关
+- 【新增】6.实名引导流程回退策略
+- 【新增】7.附近嘉宾刷新缓冲
+- 【新增】8.用户注销/禁用后台状态显示
+- 【优化】9.动态/聊天视频播放逻辑
+- 【优化】10.短信开关及发送失败提醒
 
 <u>2025.8.25</u>
 ##### **林风婚恋交友V1.11.0发布**
