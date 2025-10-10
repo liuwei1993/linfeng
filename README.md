@@ -15,7 +15,7 @@
 
 ***SQL文件在群文件中***
 
-#### 1.1系统架构图(v1.11.0标准版)
+#### 1.1系统架构图(v1.12.0标准版)
 ![](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/love-main.png)
 
 #### 1.2演示地址
@@ -27,7 +27,7 @@
 | 微信公众号     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/linfeng-ma.jpg) |
 | h5演示         | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-h5.png) |
 | 小程序演示（请添加客服）     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-love-mp.jpg) |
-| APP演示（安卓）     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-apk.jpg) |
+| APP演示（安卓）     | ![输入图片说明](https://gitee.com/yuncoder001/linfeng-love/raw/master/images/qrcode-apk.png) |
 
 
 #### 1.3移动端效果图
